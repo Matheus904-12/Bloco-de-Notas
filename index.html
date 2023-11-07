@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloco de Notas</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="imagex/png" href="icon.png">
-
+    <title>Bloco de Notas</title>
 </head>
 <body>
-    <h1>Bloco de Notas</h1>
-    <textarea id="nova-nota"></textarea>
-    <button id="adicionar-nota">Adicionar Nota</button>
-    <button id="limpar-notas">Limpar Nota</button>
-    <div class="notas-salvas"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Bloco de Notas</h1>
+            <button id="limpar-notas">Limpar Notas</button>
+        </div>
+        <div class="nota">
+            <textarea id="nova-nota" placeholder="Digite sua nota aqui"></textarea>
+            <button id="adicionar-nota">Adicionar Nota</button>
+        </div>
+        <div id="notas-salvas"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
