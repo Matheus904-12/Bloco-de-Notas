@@ -90,11 +90,11 @@ button:hover {
     padding: 5px 10px;
     cursor: pointer;
     transition: background-color 0.2s;
-    color: white;
+    colof
 }
 
 .divEditarTexto button:hover, .divEditarCor input:hover {
-    background-color: #01062e;
+    background-color: #7d7d7d;
 }
 
 .divEditarCor input {
@@ -111,8 +111,4 @@ button:hover {
 
 #Editar {
     color: aquamarine;
-}
-
-.divEditarTexto button {
-    background-color: #7d7d7d;
 }

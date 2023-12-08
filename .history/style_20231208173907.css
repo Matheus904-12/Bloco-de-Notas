@@ -94,7 +94,7 @@ button:hover {
 }
 
 .divEditarTexto button:hover, .divEditarCor input:hover {
-    background-color: #01062e;
+    background-color: #000000;
 }
 
 .divEditarCor input {
@@ -115,4 +115,5 @@ button:hover {
 
 .divEditarTexto button {
     background-color: #7d7d7d;
+    padding: ;
 }
